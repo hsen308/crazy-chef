@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crazy Chef - Lebanese Fast Food Restaurant. Delicious burgers, sandwiches, and crispy fajita fries. Dine-in, takeaway & delivery available.">
+    <meta name="keywords" content="Lebanese food, fast food, burgers, sandwiches, fajita fries, delivery, Crazy Chef">
+    <title>Crazy Chef | Lebanese Fast Food Restaurant</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-crazy">CRAZY</span>
+                <span class="logo-chef">CHEF</span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-ar="من نحن">About</a></li>
+                <li><a href="#menu" class="nav-link" data-en="Menu" data-ar="القائمة">Menu</a></li>
+                <li><a href="#reservation" class="nav-link" data-en="Reservation" data-ar="حجز">Reservation</a></li>
+                <li><a href="#gallery" class="nav-link" data-en="Gallery" data-ar="معرض">Gallery</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="lang-toggle" id="langToggle">
+                    <span class="lang-option active" data-lang="en">EN</span>
+                    <span class="lang-divider">|</span>
+                    <span class="lang-option" data-lang="ar">AR</span>
+                </button>
+                <a href="https://wa.me/961XXXXXXXX?text=Hello!%20I'd%20like%20to%20place%20an%20order" class="btn-order" data-en="Order Now" data-ar="اطلب الآن" target="_blank">Order Now</a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-image">
+            <!-- Placeholder for hero background image -->
+            <div class="image-placeholder hero-placeholder">
+                <i class="fas fa-hamburger"></i>
+                <p>Hero Background Image</p>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-en="Taste The Crazy Difference" data-ar="تذوق الفرق المجنون">Taste The Crazy Difference</h1>
+                <p class="hero-subtitle" data-en="Lebanese fast food crafted with passion. Fresh burgers, crispy sandwiches & authentic flavors delivered to your door." data-ar="وجبات سريعة لبنانية محضرة بشغف. برغر طازج، سندويشات مقرمشة ونكهات أصيلة توصل لباب بيتك.">Lebanese fast food crafted with passion. Fresh burgers, crispy sandwiches & authentic flavors delivered to your door.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary" data-en="View Menu" data-ar="عرض القائمة">View Menu</a>
+                    <a href="https://wa.me/961XXXXXXXX?text=Hello!%20I'd%20like%20to%20place%20an%20order" class="btn btn-secondary" target="_blank" data-en="Order on WhatsApp" data-ar="اطلب عبر واتساب">Order on WhatsApp</a>
+                    <a href="#reservation" class="btn btn-outline" data-en="Reserve Table" data-ar="احجز طاولة">Reserve Table</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-en="Our Story" data-ar="قصتنا">Our Story</span>
+                <h2 class="section-title" data-en="Crazy Good Food, Crazy Fast Service" data-ar="طعام رائع، خدمة سريعة">Crazy Good Food, Crazy Fast Service</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="At Crazy Chef, we're not just another fast-food joint. We're a celebration of Lebanese flavors meeting modern fast-food culture. Every burger, sandwich, and crispy fajita fries is crafted with premium ingredients and a touch of culinary madness." data-ar="في كريزي شيف، نحن لسنا مجرد مطعم وجبات سريعة عادي. نحن احتفال بالنكهات اللبنانية التي تلتقي مع ثقافة الوجبات السريعة الحديثة. كل برغر وسندويش وبطاطا فاهيتا مقرمشة يتم تحضيرها بمكونات ممتازة ولمسة من الجنون الطهي.">At Crazy Chef, we're not just another fast-food joint. We're a celebration of Lebanese flavors meeting modern fast-food culture. Every burger, sandwich, and crispy fajita fries is crafted with premium ingredients and a touch of culinary madness.</p>
+                    <p data-en="From our kitchen to your table, we guarantee fresh, hot, and absolutely delicious meals that keep you coming back for more." data-ar="من مطبخنا إلى طاولتك، نضمن لك وجبات طازجة وساخنة ولذيذة تمامًا تجعلك تعود لنا مرارًا وتكرارًا.">From our kitchen to your table, we guarantee fresh, hot, and absolutely delicious meals that keep you coming back for more.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 data-en="Lightning Fast" data-ar="سريع كالبرق">Lightning Fast</h3>
+                        <p data-en="Quick service without compromising quality" data-ar="خدمة سريعة دون المساس بالجودة">Quick service without compromising quality</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 data-en="Fresh Ingredients" data-ar="مكونات طازجة">Fresh Ingredients</h3>
+                        <p data-en="Daily fresh produce and premium meats" data-ar="منتجات طازجة يومياً ولحوم ممتازة">Daily fresh produce and premium meats</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3 data-en="Fast Delivery" data-ar="توصيل سريع">Fast Delivery</h3>
+                        <p data-en="Hot meals delivered right to your door" data-ar="وجبات ساخنة توصل لباب بيتك">Hot meals delivered right to your door</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-en="What We Serve" data-ar="ما نقدمه">What We Serve</span>
+                <h2 class="section-title" data-en="Our Crazy Menu" data-ar="قائمتنا المجنونة">Our Crazy Menu</h2>
+            </div>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="all" data-en="All" data-ar="الكل">All</button>
+                <button class="menu-tab" data-category="burgers" data-en="Burgers" data-ar="برغر">Burgers</button>
+                <button class="menu-tab" data-category="sandwiches" data-en="Sandwiches" data-ar="سندويشات">Sandwiches</button>
+                <button class="menu-tab" data-category="fries" data-en="Fajita Fries" data-ar="بطاطا فاهيتا">Fajita Fries</button>
+                <button class="menu-tab" data-category="snacks" data-en="Lebanese Snacks" data-ar="مقبلات لبنانية">Lebanese Snacks</button>
+                <button class="menu-tab" data-category="drinks" data-en="Drinks" data-ar="مشروبات">Drinks</button>
+            </div>
+            
+            <div class="menu-grid" id="menuGrid">
+                <!-- Burgers -->
+                <div class="menu-item" data-category="burgers">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Crazy Classic Burger" data-ar="برغر كلاسيك المجنون">Crazy Classic Burger</h3>
+                            <span class="price">$8.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Premium beef patty, fresh lettuce, tomatoes, onions, and our special sauce" data-ar="لحم بقري ممتاز، خس طازج، طماطم، بصل وصلصتنا الخاصة">Premium beef patty, fresh lettuce, tomatoes, onions, and our special sauce</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Crazy%20Classic%20Burger" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="burgers">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Spicy Chicken Burger" data-ar="برغر دجاج حار">Spicy Chicken Burger</h3>
+                            <span class="price">$7.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Crispy spicy chicken breast, jalapeños, pepper jack cheese, chipotle mayo" data-ar="صدر دجاج مقرمش حار، هالبينو، جبنة بيبر جاك، مايونيز تشيبوتلي">Crispy spicy chicken breast, jalapeños, pepper jack cheese, chipotle mayo</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Spicy%20Chicken%20Burger" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="burgers">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Double Crazy Burger" data-ar="دوبل برغر المجنون">Double Crazy Burger</h3>
+                            <span class="price">$12.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Double beef patties, double cheese, caramelized onions, bacon, BBQ sauce" data-ar="قطعتين لحم، جبنة مضاعفة، بصل مكرمل، بيكن، صلصة باربيكيو">Double beef patties, double cheese, caramelized onions, bacon, BBQ sauce</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Double%20Crazy%20Burger" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Sandwiches -->
+                <div class="menu-item" data-category="sandwiches">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-sandwich"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Lebanese Chicken Shawarma" data-ar="شاورما دجاج لبنانية">Lebanese Chicken Shawarma</h3>
+                            <span class="price">$6.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Marinated chicken, garlic sauce, pickles, wrapped in fresh saj bread" data-ar="دجاج متبل، صلصة ثوم، مخلل، ملفوف بخبز صاج طازج">Marinated chicken, garlic sauce, pickles, wrapped in fresh saj bread</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Lebanese%20Chicken%20Shawarma" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="sandwiches">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Crispy Chicken Sub" data-ar="سب دجاج مقرمش">Crispy Chicken Sub</h3>
+                            <span class="price">$7.49</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Breaded chicken, coleslaw, ranch, served in toasted baguette" data-ar="دجاج مقرمش، كولسلو، رانش، يقدم في باغيت محمص">Breaded chicken, coleslaw, ranch, served in toasted baguette</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Crispy%20Chicken%20Sub" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Fajita Fries -->
+                <div class="menu-item" data-category="fries">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-pepper-hot"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Crispy Fajita Fries" data-ar="بطاطا فاهيتا مقرمشة">Crispy Fajita Fries</h3>
+                            <span class="price">$5.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Golden fries topped with sautéed peppers, onions, cheese sauce, and fajita spices" data-ar="بطاطا ذهبية مع فلفل وبصل مقلي، صلصة جبنة وتوابل فاهيتا">Golden fries topped with sautéed peppers, onions, cheese sauce, and fajita spices</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Crispy%20Fajita%20Fries" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="fries">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cheese"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Loaded Cheese Fries" data-ar="بطاطا بالجبنة المحملة">Loaded Cheese Fries</h3>
+                            <span class="price">$6.49</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Crispy fries smothered in triple cheese sauce, bacon bits, and jalapeños" data-ar="بطاطا مقرمشة مغطاة بصلصة جبنة ثلاثية، بيكن وهالبينو">Crispy fries smothered in triple cheese sauce, bacon bits, and jalapeños</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Loaded%20Cheese%20Fries" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Lebanese Snacks -->
+                <div class="menu-item" data-category="snacks">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Falafel Plate" data-ar="صحن فلافل">Falafel Plate</h3>
+                            <span class="price">$5.49</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Golden falafel served with tahini, pickles, and fresh vegetables" data-ar="فلافل ذهبية تقدم مع طحينة، مخلل وخضار طازجة">Golden falafel served with tahini, pickles, and fresh vegetables</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Falafel%20Plate" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="snacks">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Chicken Wings" data-ar="أجنحة دجاج">Chicken Wings</h3>
+                            <span class="price">$7.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Crispy wings with choice of buffalo, BBQ, or garlic parmesan sauce" data-ar="أجنحة مقرمشة مع اختيار صلصة بوفالو، باربيكيو أو ثوم بارميزان">Crispy wings with choice of buffalo, BBQ, or garlic parmesan sauce</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Chicken%20Wings" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Drinks -->
+                <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-glass-whiskey"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Fresh Lemonade" data-ar="ليموناضة طازجة">Fresh Lemonade</h3>
+                            <span class="price">$2.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Freshly squeezed lemonade with mint" data-ar="ليموناضة معصورة طازج مع نعناع">Freshly squeezed lemonade with mint</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Fresh%20Lemonade" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 data-en="Soft Drinks" data-ar="مشروبات غازية">Soft Drinks</h3>
+                            <span class="price">$1.99</span>
+                        </div>
+                        <p class="menu-item-desc" data-en="Cola, Sprite, Fanta, or local favorites" data-ar="كولا، سبرايت، فانتا أو مفضلات محلية">Cola, Sprite, Fanta, or local favorites</p>
+                        <a href="https://wa.me/961XXXXXXXX?text=I'd%20like%20to%20order%20Soft%20Drinks" class="menu-order-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Order" data-ar="اطلب">Order</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <span class="section-label" data-en="Book A Table" data-ar="احجز طاولة">Book A Table</span>
+                    <h2 class="section-title" data-en="Reserve Your Spot" data-ar="احجز مكانك">Reserve Your Spot</h2>
+                    <p data-en="Planning to dine in? Reserve your table in advance and ensure you get the best spot in our restaurant. We're ready to serve you!" data-ar="تخطط لتناول الطعام؟ احجز طاولتك مسبقاً واحصل على أفضل مكان في مطعمنا. نحن جاهزون لخدمتك!">Planning to dine in? Reserve your table in advance and ensure you get the best spot in our restaurant. We're ready to serve you!</p>
+                    
+                    <div class="reservation-features">
+                        <div class="res-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="Family Friendly" data-ar="مناسب للعائلات">Family Friendly</span>
+                        </div>
+                        <div class="res-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="Free WiFi" data-ar="واي فاي مجاني">Free WiFi</span>
+                        </div>
+                        <div class="res-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="Cozy Ambiance" data-ar="أجواء مريحة">Cozy Ambiance</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reservation-form-container">
+                    <form class="reservation-form" id="reservationForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" data-placeholder-en="Your Name" data-placeholder-ar="اسمك" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" data-placeholder-en="Phone Number" data-placeholder-ar="رقم الهاتف" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="number" min="1" max="20" placeholder="Guests" data-placeholder-en="Guests" data-placeholder-ar="عدد الأشخاص" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-en="Reserve Table" data-ar="احجز طاولة">Reserve Table</button>
+                    </form>
+                    
+                    <div class="or-divider">
+                        <span data-en="OR" data-ar="أو">OR</span>
+                    </div>
+                    
+                    <a href="https://wa.me/961XXXXXXXX?text=Hello!%20I'd%20like%20to%20reserve%20a%20table" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-en="Reserve via WhatsApp" data-ar="احجز عبر واتساب">Reserve via WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-en="Visual Feast" data-ar="وليمة بصرية">Visual Feast</span>
+                <h2 class="section-title" data-en="Gallery" data-ar="معرض الصور">Gallery</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Food Photo 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Food Photo 2</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Restaurant Photo 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Food Photo 3</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Food Photo 4</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Restaurant Photo 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-en="What People Say" data-ar="ماذا يقول الناس">What People Say</span>
+                <h2 class="section-title" data-en="Customer Reviews" data-ar="آراء العملاء">Customer Reviews</h2>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text" data-en="Best burgers in town! The Crazy Classic is my go-to every weekend. Fresh ingredients and amazing taste. Highly recommend!" data-ar="أفضل برغر في المدينة! الكلاسيك المجنون هو خياري في كل عطلة نهاية أسبوع. مكونات طازجة وطعم رائع. أوصي به بشدة!">Best burgers in town! The Crazy Classic is my go-to every weekend. Fresh ingredients and amazing taste. Highly recommend!</p>
+                    <div class="reviewer">
+                        <strong>Sarah M.</strong>
+                        <span data-en="Regular Customer" data-ar="عميلة دائمة">Regular Customer</span>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text" data-en="The crispy fajita fries are absolutely incredible! Perfect blend of flavors and textures. Service is quick and staff is super friendly." data-ar="بطاطا الفاهيتا المقرمشة رائعة تماماً! مزيج مثالي من النكهات. الخدمة سريعة والموظفون ودودون جداً.">The crispy fajita fries are absolutely incredible! Perfect blend of flavors and textures. Service is quick and staff is super friendly.</p>
+                    <div class="reviewer">
+                        <strong>Ahmad K.</strong>
+                        <span data-en="Food Enthusiast" data-ar="عاشق الطعام">Food Enthusiast</span>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="review-text" data-en="Ordered delivery twice this week. Both times the food arrived hot and fresh. The chicken shawarma tastes authentic and delicious!" data-ar="طلبت التوصيل مرتين هذا الأسبوع. في كلا المرتين وصل الطعام ساخناً وطازجاً. شاورما الدجاج طعمها أصيل ولذيذ!">Ordered delivery twice this week. Both times the food arrived hot and fresh. The chicken shawarma tastes authentic and delicious!</p>
+                    <div class="reviewer">
+                        <strong>Lara T.</strong>
+                        <span data-en="Delivery Regular" data-ar="طلبات منتظمة">Delivery Regular</span>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text" data-en="Great value for money! Portions are generous and the quality is consistently excellent. This is our new family favorite spot." data-ar="قيمة رائعة مقابل المال! الحصص سخية والجودة ممتازة دائماً. هذا مكاننا المفضل الجديد للعائلة.">Great value for money! Portions are generous and the quality is consistently excellent. This is our new family favorite spot.</p>
+                    <div class="reviewer">
+                        <strong>Tony R.</strong>
+                        <span data-en="Family Man" data-ar="رب عائلة">Family Man</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours & Services Section -->
+    <section class="hours-services">
+        <div class="container">
+            <div class="hs-grid">
+                <div class="hours-card">
+                    <h3 data-en="Opening Hours" data-ar="ساعات العمل">Opening Hours</h3>
+                    <div class="hours-list">
+                        <div class="hour-item">
+                            <span data-en="Every Day" data-ar="كل يوم">Every Day</span>
+                            <span class="time">2:00 PM - 10:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="services-card">
+                    <h3 data-en="Our Services" data-ar="خدماتنا">Our Services</h3>
+                    <div class="services-list">
+                        <div class="service-item">
+                            <i class="fas fa-utensils"></i>
+                            <span data-en="Dine-In" data-ar="تناول الطعام">Dine-In</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span data-en="Takeaway" data-ar="أخذ الطعام">Takeaway</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-motorcycle"></i>
+                            <span data-en="Delivery" data-ar="توصيل">Delivery</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-en="Online Orders" data-ar="طلبات أونلاين">Online Orders</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-en="Find Us" data-ar="ابحث عنا">Find Us</span>
+                <h2 class="section-title" data-en="Our Location" data-ar="موقعنا">Our Location</h2>
+            </div>
+            
+            <div class="location-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-en="Address" data-ar="العنوان">Address</h4>
+                            <p data-en="Main Street, Sidon, Lebanon" data-ar="الشارع الرئيسي، صيدا، لبنان">Main Street, Sidon, Lebanon</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-en="Phone" data-ar="الهاتف">Phone</h4>
+                            <p>+961 XX XXX XXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+961 XX XXX XXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-en="Email" data-ar="البريد الإلكتروني">Email</h4>
+                            <p>contact@crazychef.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <!-- Google Maps Embed - Replace with actual coordinates -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52901.534621745746!2d35.350444!3d33.561044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151e7d902f28d0e1%3A0x8d3c2f02248699a7!2sSidon%2C%20Lebanon!5e0!3m2!1sen!2s!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-crazy">CRAZY</span>
+                        <span class="logo-chef">CHEF</span>
+                    </div>
+                    <p data-en="Lebanese fast food crafted with passion. Experience the crazy difference!" data-ar="وجبات سريعة لبنانية محضرة بشغف. اختبر الفرق المجنون!">Lebanese fast food crafted with passion. Experience the crazy difference!</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/961XXXXXXXX" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                        <li><a href="#about" data-en="About" data-ar="من نحن">About</a></li>
+                        <li><a href="#menu" data-en="Menu" data-ar="القائمة">Menu</a></li>
+                        <li><a href="#reservation" data-en="Reservation" data-ar="حجز">Reservation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-en="Opening Hours" data-ar="ساعات العمل">Opening Hours</h4>
+                    <ul>
+                        <li>
+                            <span data-en="Every Day" data-ar="كل يوم">Every Day</span>
+                            <span>2 PM - 10 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-en="Contact" data-ar="اتصل بنا">Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +961 XX XXX XXX</li>
+                        <li><i class="fas fa-envelope"></i> contact@crazychef.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-en="Sidon, Lebanon" data-ar="صيدا، لبنان">Sidon, Lebanon</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crazy Chef. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/961XXXXXXXX?text=Hello!%20I'd%20like%20to%20place%20an%20order" class="whatsapp-float" target="_blank" aria-label="Order on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="Gallery Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
